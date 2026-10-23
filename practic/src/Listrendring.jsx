@@ -84,18 +84,18 @@
 
 
 // Q4.............................../
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-const Listrendering = () => {
-  const [isLoaded, setIsLoaded] = useState(false)
-  return (
-    <div>
-      <h1>Loading Status</h1>
-      <p>{isLoaded ? 'Data Loaded Successfully!' : 'Loading.................'}</p>
-      <button onClick={() => setIsLoaded(true)}>
-        Load Data
-      </button>
-    </div>
-  )
-}
-export default Listrendering
+// const Listrendering = () => {
+//   const [isLoaded, setIsLoaded] = useState(false)
+//   return (
+//     <div>
+//       <h1>Loading Status</h1>
+//       <p>{isLoaded ? 'Data Loaded Successfully!' : 'Loading.................'}</p>
+//       <button onClick={() => setIsLoaded(true)}>
+//         Load Data
+//       </button>
+//     </div>
+//   )
+// }
+// export default Listrendering
